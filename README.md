@@ -10,8 +10,7 @@
 Um projeto simples com conceitos basicos de JavaScript e manipulação de DOM
 
 ## Layout 
-<img src="./Capturar.png" alt="@Hawk_web" height="200">
-<img src="/Capturar.png" alt="@Hawk_web" height="200">
+<img src="./image/Capturar.PNG" alt="@Hawk_web" height="200">
 
 # Tecnologias utilizadas
 - Html
