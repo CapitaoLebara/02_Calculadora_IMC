@@ -1,0 +1,157 @@
+/*Inicio do imc*/
+
+body {
+    background: rgb(70, 142, 236);
+}
+
+main {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #275e8b;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 50px white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2.5rem serif;
+    border-bottom: solid 5px black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+    font: bold 1.5rem serif;
+    text-align: center;
+}
+
+.input label {
+    font: bold 1.5rem serif;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem serif;
+    background: #000;
+    color: rgb(255, 198, 0);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.butam {
+    display: flex;
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+
+.butam .but2 {
+    display: block;
+}
+
+.butam .but2 button {
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 100px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+    border: none;
+    outline: none;
+    left: 50px;
+    border-radius: 0 5px 5px 0;
+    transition: all 0s ease-out;
+}
+
+.but2 button:active {
+    top: 3px;
+}
+
+.but2 button.ani,
+.but2 button.ani span {
+    background: #3b5999;
+    border-left: 1px solid #2E4476;
+    box-shadow: 0px 5px 0px 0px #2E4476;
+}
+
+.but2 button.ani:active {
+    box-shadow: 0px 2px 0px 0px #2E4476;
+}
+
+.but2 button span {
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    top: 0;
+    left: -52px;
+    line-height: 38px;
+    font-size: 24px;
+    display: block;
+    font-weight: normal;
+    border-radius: 5px 0 0 5px;
+}
+
+.but2 button:active span {
+    top: -3px;
+}
+
+.result {
+    position: relative;
+    margin-top: -20px;
+    margin-left: 10px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    font: italic 1.5rem serif;
+    box-shadow: 0px 0px 10px black;
+    background: #000;
+    color: rgb(255, 198, 0);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+    overflow: auto;
+}
+
+.te3 {
+    position: relative;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    left: 20px;
+}
